@@ -1,5 +1,172 @@
-*{
+* {
     padding: 0;
     margin: 0;
     border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    /* text-transform: capitalize; */
+}
+ body {
+    height: 100vh;
+    width: 100%;
+    background:url(https://images.wallpaperscraft.ru/image/single/doroga_razmetka_derevia_137674_3840x2400.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Noto+Serif:wght@900&display=swap');
+
+
+
+.conrainer{
+	display: block;
+	width: 100%;
+	height: 100%px;
+    padding-top: 91px;
+    background-color: rgba(43, 43, 43, 0.534);
+	background-repeat: repeat;
+    
+}
+
+
+.section_button{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 100%;
+    height: 100%;
+	background-color: rgb(19, 106, 156);
+   
+}
+
+
+.click{
+	width: 150px;
+	height: 60px;
+	margin: 5px;
+	background-color: #81534800;
+	color: #000000;
+	font-family: 'Climate Crisis', sans-serif;
+    font-family: 'Noto Serif', serif;
+	border: 2px solid rgb(228, 89, 9);
+	border-radius: 20px;
+	cursor: pointer;
+	font-size: 15px;
+	transition: transform 0.3s ease;
+	box-shadow: 5px 13px  15px;
+    
+}
+
+
+.my-button{
+
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content:space-around;
+	flex-wrap: wrap;
+    
+	background-color: rgba(255, 255, 255, 0);
+	border-radius: 20px;
+	
+}
+
+.animated-button {
+	width: 150px;
+	height: 180px;
+	margin: 20px;
+	margin-top: 17px;
+	padding: 2px 5px;
+	background-color: #81534800;
+	color: #11a01873;
+	font-family: 'Climate Crisis', sans-serif;
+    font-family: 'Noto Serif', serif;
+	border: 2px solid rgba(77, 72, 72, 0.986);
+	border-radius: 20px;
+	cursor: pointer;
+	font-size: 16px;
+	transition: transform 0.3s ease;
+	box-shadow: 1px 3px  5px;
+
+}
+.animated-button:hover {
+	transform: scale(1.2);
+	
+} 
+
+.logo{
+	display: inline-block;
+	margin-bottom: 20px;
+	align-items: center;
+	margin-top: 5px;
+	
+}
+
+.position{
+	display: block;
+	margin: 10px;
+	margin-top: -15px;
+	border: 1px solid rgb(93, 95, 95);
+	color:rgb(255, 255, 255);
+	border-radius: 20px;
+	text-decoration: none;
+	cursor: pointer;
+	font-size: 18px;
+	letter-spacing: 1px;
+	transition: transform 0.2s ease;
+	box-shadow: 1px 5px 10px;
+}
+.position:hover{
+	transform: scale(1.2);
+	background-color: rgba(38, 172, 67, 0.774);
+	
+	
+}
+
+.positionX{
+	display: block;
+	margin: 10px;
+	border: 1px solid rgb(93, 95, 95);
+	color:rgb(255, 255, 255);
+	border-radius: 20px;
+	text-decoration: none;
+	cursor: pointer;
+	font-size: 16px;
+	transition: transform 0.3s ease;
+	box-shadow: 1px 5px 10px;
+	
+}
+.positionX:hover{
+	transform: scale(1.2);
+	background-color: rgba(228, 117, 14, 0.507);
+}
+
+.info{
+	display: block;
+	margin: 10px;
+	margin-bottom: 10px;
+	border: 1px solid rgb(93, 95, 95);
+	color:rgb(255, 255, 255);
+	border-radius: 20px;
+	text-decoration: none;
+	cursor: pointer;
+	font-size: 16px;
+	transition: transform 0.3s ease;
+	box-shadow: 1px 5px 10px;
+	
+}
+
+.info:hover{
+	transform: scale(1.2);
+	background-color: rgba(27, 163, 197, 0.39);
 }
