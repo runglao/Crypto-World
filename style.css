@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Noto+Serif:wght@900&display=swap');
+
+.header{
+	width: 100%;
+	height: 80px;
+	padding: 0px;
+	text-align: center;
+	font-size: 30px;
+	color: rgb(255, 255, 255);
+	font-family: 'Climate Crisis', sans-serif;
+    font-family: 'Noto Serif', serif;
+	text-decoration: underline;
+}
+
+.conrainer{
+	display: block;
+	width: 100%;
+	height: 100%px;
+	/* background-image: url(https://images.wallpaperscraft.ru/image/single/zamok_kamen_temnyj_282379_1440x900.jpg); */
+    background-color: rgb(12, 12, 14);
+	background-repeat: repeat;
+
+}
+
+
+.section_button{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 100%;
+    height: 100%;
+	background-color: rgb(19, 106, 156);
+}
+
+.Contrakt_button{
+	width: 150px;
+	height: 60px;
+	margin: 5px;
+	background-color: #81534800;
+	color: #000000;
+	font-family: 'Climate Crisis', sans-serif;
+    font-family: 'Noto Serif', serif;
+	border: 2px solid rgb(170, 173, 173);
+	border-radius: 20px;
+	cursor: pointer;
+	font-size: 15px;
+	transition: transform 0.3s ease;
+	box-shadow: 5px 13px  15px;
+}
+
+.MDN{
+    font-size: 30px;
+	font-family: 'Climate Crisis', sans-serif;
+    font-family: 'Noto Serif', serif;
+	margin: 5px;
+	border: 2px solid rgb(170, 173, 173);
+	border-radius: 20px;
+	padding: 5px 15px;
+	box-shadow: 5px 13px  15px;
+}
+
+.click{
+	width: 150px;
+	height: 60px;
+	margin: 5px;
+	background-color: #81534800;
+	color: #000000;
+	font-family: 'Climate Crisis', sans-serif;
+    font-family: 'Noto Serif', serif;
+	border: 2px solid rgb(170, 173, 173);
+	border-radius: 20px;
+	cursor: pointer;
+	font-size: 15px;
+	transition: transform 0.3s ease;
+	box-shadow: 5px 13px  15px;
+}
+
+
+.my-button{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content:space-around;
+	flex-wrap: wrap;
+	background-color: rgba(255, 255, 255, 0);
+	border-radius: 20px;
+	
+}
+
+.animated-button {
+	width: 150px;
+	height: 200px;
+	margin: 20px;
+	margin-top: 17px;
+	padding: 2px 5px;
+	background-color: #81534800;
+	color: #ffffff;
+	font-family: 'Climate Crisis', sans-serif;
+    font-family: 'Noto Serif', serif;
+	border: 2px solid rgb(52, 85, 85);
+	border-radius: 20px;
+	cursor: pointer;
+	font-size: 16px;
+	transition: transform 0.3s ease;
+	box-shadow: 1px 3px  5px;
+
+}
+.animated-button:hover {
+	transform: scale(1.2);
+	
+} 
+
+.logo{
+	display: inline-block;
+	margin-bottom: 20px;
+	align-items: center;
+	margin-top: 5px;
+	
+}
+
+.position{
+	display: block;
+	margin: 10px;
+	margin-top: -15px;
+	border: 1px solid rgb(93, 95, 95);
+	color:rgb(255, 255, 255);
+	border-radius: 20px;
+	text-decoration: none;
+	cursor: pointer;
+	font-size: 18px;
+	letter-spacing: 1px;
+	transition: transform 0.2s ease;
+	box-shadow: 1px 5px 10px;
+}
+.position:hover{
+	transform: scale(1.2);
+	background-color: rgba(38, 172, 67, 0.404);
+	
+	
+}
+
+.positionX{
+	display: block;
+	margin: 10px;
+	border: 1px solid rgb(93, 95, 95);
+	color:rgb(255, 255, 255);
+	border-radius: 20px;
+	text-decoration: none;
+	cursor: pointer;
+	font-size: 16px;
+	transition: transform 0.3s ease;
+	box-shadow: 1px 5px 10px;
+	
+}
+.positionX:hover{
+	transform: scale(1.2);
+	background-color: rgba(228, 117, 14, 0.507);
+}
+
+.info{
+	display: block;
+	margin: 10px;
+	margin-bottom: 10px;
+	border: 1px solid rgb(93, 95, 95);
+	color:rgb(255, 255, 255);
+	border-radius: 20px;
+	text-decoration: none;
+	cursor: pointer;
+	font-size: 16px;
+	transition: transform 0.3s ease;
+	box-shadow: 1px 5px 10px;
+	
+}
+
+.info:hover{
+	transform: scale(1.2);
+	background-color: rgba(27, 163, 197, 0.39);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 425px) {
+	.header {
+		font-size: 25px;
+	}
+	
+}
+@media (max-width: 330px) {
+	.header {
+		font-size: 20px;
+	}
+	
+}
