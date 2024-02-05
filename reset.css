@@ -12,6 +12,7 @@
     width: 100%;
     background:url(https://images.wallpaperscraft.ru/image/single/doroga_razmetka_derevia_137674_3840x2400.jpg);
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
 }
