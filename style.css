@@ -147,7 +147,10 @@
   }
 
   @media (max-width:1060px) {
-      
+
+    footer{
+      margin-bottom: 40px;
+    }
        animated-button {
         margin-bottom: 60px;
       }
