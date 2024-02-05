@@ -147,7 +147,8 @@
   }
 
   @media (max-width:1060px) {
-      .animated-button{
+      
+       animated-button {
         margin-bottom: 60px;
       }
     
