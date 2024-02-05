@@ -147,7 +147,11 @@
   }
 
   @media (max-width:1060px) {
-      header nav {
+      .animated-button{
+        margin-botom: 20px
+      }
+    
+    header nav {
         position: absolute;
         top: 100%;
         left: 0;
