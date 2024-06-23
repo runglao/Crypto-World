@@ -191,8 +191,8 @@ header {
         display: initial;
        }
        header .logo{
-        padding-top: 5px;
-        margin-left: 20px;
+        padding-top: -3px;
+        margin-left: 5px;
        }
        nav ul li ul li{
         margin-top: -3px;
