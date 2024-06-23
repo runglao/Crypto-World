@@ -10,7 +10,7 @@
  body {
     height: 100vh;
     width: 100%;
-    background:url(https://images.wallpaperscraft.ru/image/single/doroga_razmetka_derevia_137674_3840x2400.jpg);
+    background:url(https://images.wallpaperscraft.ru/image/single/noutbuk_klavishi_svechenie_170138_3840x2400.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -24,7 +24,7 @@
 	width: 100%;
         height: 100%px;
         padding-top: 91px;
-        background-color: rgba(43, 43, 43, 0.534);
+        background-color: rgba(104, 101, 101, 0.137);
 	background-repeat: repeat;  
 }
 
@@ -74,8 +74,8 @@
 	margin-top: 17px;
 	margin-bottom: 21px;
 	padding-bottom: 20px
-	color: #11a01873;
-	background-color: #91675d86;
+	color #11a01873;
+	background-color: #57e7db09;
 	font-family: 'Climate Crisis', sans-serif;
         font-family: 'Noto Serif', serif;
 	border: 2px solid rgba(77, 72, 72, 0.986);
@@ -91,17 +91,73 @@
 	
 } 
 
+.MyBaner{
+	width: 95%;
+	height: 180px;
+	margin: 20px;
+	margin-top: 17px;
+	margin-bottom: 21px;
+	padding-bottom: 20px
+	color #11a01873;
+	background-color: #57e7db09;
+	font-family: 'Climate Crisis', sans-serif;
+        font-family: 'Noto Serif', serif;
+	border: 2px solid rgba(77, 72, 72, 0.986);
+	border-radius: 20px;
+	cursor: pointer;
+	font-size: 16px;
+	transition: transform 0.3s ease;
+	box-shadow: 1px 3px  5px;
+}
+
+.MyBaner:hover {
+	transform: scale(1.02);
+}
+
+.Text1{
+	display: block;
+	margin: 10px;
+	padding: 3px;
+	margin-top: -120px;
+	border: 1px solid rgb(93, 95, 95);
+	color:rgb(255, 255, 255);
+	border-radius: 20px;
+	text-decoration: none;
+	cursor: pointer;
+	font-size: 38px;
+	letter-spacing: 1px;
+	transition: transform 0.3s ease;
+	box-shadow: 1px 2px 5px;
+}
+.Text1:hover{
+	
+	background-color: rgba(233, 85, 26, 0.658);
+}
+
+
+
+
+
+.logoRGO {
+	display: inline-block;
+	margin-bottom: 130px;
+	align-items: center;
+	
+
+}
 .logo{
 	display: inline-block;
 	margin-bottom: 20px;
 	align-items: center;
 	margin-top: 5px;
+	
 }
 
 .position{
 	display: block;
 	margin: 10px;
-	margin-top: -15px;
+	padding: 3px;
+	margin-top: -18px;
 	border: 1px solid rgb(93, 95, 95);
 	color:rgb(255, 255, 255);
 	border-radius: 20px;
@@ -109,12 +165,12 @@
 	cursor: pointer;
 	font-size: 18px;
 	letter-spacing: 1px;
-	transition: transform 0.2s ease;
-	box-shadow: 1px 5px 10px;
+	transition: transform 0.3s ease;
+	box-shadow: 1px 2px 5px;
 }
 .position:hover{
-	transform: scale(1.2);
-	background-color: rgba(38, 172, 67, 0.774);
+	transform: scale(1.1);
+	background-color: rgba(233, 85, 26, 0.658);
 }
 
 .positionX{
@@ -127,12 +183,12 @@
 	cursor: pointer;
 	font-size: 16px;
 	transition: transform 0.3s ease;
-	box-shadow: 1px 5px 10px;
+	box-shadow: 1px 2px 5px;
 	
 }
 .positionX:hover{
-	transform: scale(1.2);
-	background-color: rgba(228, 117, 14, 0.507);
+	transform: scale(1.1);
+	background-color: rgba(8, 99, 38, 0.493)
 }
 
 .info{
@@ -146,11 +202,11 @@
 	cursor: pointer;
 	font-size: 16px;
 	transition: transform 0.3s ease;
-	box-shadow: 1px 5px 10px;
+	box-shadow: 1px 2px 5px;
 	
 }
 
 .info:hover{
-	transform: scale(1.2);
-	background-color: rgba(27, 163, 197, 0.39);
+	transform: scale(1.1);
+	background-color: rgba(16, 175, 238, 0.507);
 }
